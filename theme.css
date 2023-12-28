@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    padding: 20px; 
+    padding: 2% 4%; 
 }
 
 ul {
@@ -45,4 +45,37 @@ li a:hover {
     right: 20px;
     cursor: pointer;
     position: absolute; 
+}
+
+.contact-info {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 16pt;
+    color: rgb(103, 108, 120);
+}
+
+.contact-info a {
+    font-size: 16pt;
+    color: rgb(127, 167, 200);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    margin-top: 40px;
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.532);
+    margin-bottom: 20px;
 }
