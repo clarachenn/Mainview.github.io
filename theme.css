@@ -5,6 +5,22 @@ body {
     padding: 0;
     background-color: #ffffff;
     text-align: center;
+    align-items: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animated {
+    animation: fadeIn 1s ease-out;
 }
 
 .main-container {
@@ -14,6 +30,16 @@ body {
     text-align: center;
     display: flex; 
     align-items: center;  
+}
+
+h2 {
+    font-size: 28px;
+    color: #3d5eb2;
+}
+
+h3 {
+    font-size: 20px;
+    color: #4f6fc0;
 }
 
 nav {
@@ -52,11 +78,22 @@ li a.active {
     color: rgb(42, 60, 105);
 }
 
-#languageButton {
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
     position: absolute;
+    background-color: #f9f9f9;
+    min-width: 152px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .mv-logo {
@@ -144,17 +181,56 @@ li a.active {
     margin-top: 40px;
 }
 
-.worker-container h2 {
-    font-size: 28px;
-    color: #4f6fc0;
-}
-
-.worker-container h3 {
-    font-size: 20px;
-    color: #4f6fc0;
+.worker-image img {
+    padding: 15px;
+    border: 5px solid #b2bcd3;
 }
 
 .worker-container p {
     font-size: 16px;
 }
  
+
+.corporate-container h2 {
+    font-size: 32px;
+    color: #3d5eb2;
+}
+
+.corporate-container {  
+    box-sizing: border-box;
+    max-width: 70%;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.corporate-panel {  
+    border-radius: 30px;
+    height: auto;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.services-info-panel {  
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: #ffffff8e;
+    text-align: left;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.corporate-container ul {
+    background-color: transparent;
+}
+
+.corporate-container li {
+    font-size: 18px;
+    padding: 5px 5px;
+    display: list-item;
+    list-style-type: disc;  
+    color: rgb(98, 114, 155);
+    margin-left: 40px;  
+    text-align: left
+}
