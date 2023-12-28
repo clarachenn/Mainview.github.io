@@ -191,12 +191,12 @@ li a.active {
 }
  
 
-.corporate-container h2 {
+.services-container h2 {
     font-size: 32px;
     color: #3d5eb2;
 }
 
-.corporate-container {  
+.services-container {  
     box-sizing: border-box;
     max-width: 70%;
     height: auto;
@@ -206,7 +206,7 @@ li a.active {
     overflow: hidden;
 }
 
-.corporate-panel {  
+.services-panel {  
     border-radius: 30px;
     height: auto;
     margin-bottom: 60px;
@@ -221,11 +221,11 @@ li a.active {
     text-align: left;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
-.corporate-container ul {
+.services-container ul {
     background-color: transparent;
 }
 
-.corporate-container li {
+.services-container li {
     font-size: 18px;
     padding: 5px 5px;
     display: list-item;
