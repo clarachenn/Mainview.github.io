@@ -6,21 +6,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mainview CPA Inc.</title>
         <link rel="stylesheet" type="text/css" href="theme.css">
-     </head>
+    </head>
+
     <body>
         <div class="main-container">
         
             <img class="mv-logo" src="MVLogo.png" width="20%" height="auto" alt="Mainview Logo">
 
-            <nav>
+            <nav class="animated">                
                 <ul>
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Our Services</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">Our Services</a>
+                        <div class="dropdown-content">
+                            <a href="corporate.html">Corporate</a>
+                            <a href="individual.html">Individual</a>
+                            <a href="other.html">Other</a>
+                        </div>
+                    </li>
                     <li><a href="announcements.html">Announcements & Forum</a></li>
                     <li><a href="jobs.html">Job Opportunities</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="index-ch.html">EN</a></li>
+                    <li><a href="chinese-pages/index-ch.html">EN</a></li>
                 </ul>
             </nav>
         </div> 
@@ -29,7 +37,7 @@
             <h1>Welcome to Mainview CPA Inc.</h1>
         </div>
 
-        <img class="bg-image" src="sunset.jpg" width="100%" height="auto" alt="Background Image">
+        <img class="bg-image" src="bg-images/sunset.jpg" width="100%" height="auto" alt="Background Image">
 
         <div class="contact-info">
             <p>Call: <a href="tel:+16043326696">604 332 6696</a></p>
@@ -44,8 +52,6 @@
             <img src="IMG_5070.JPG" alt="Image 3">
         </div>
  
-                
-    
     </body>
 
 </html>
