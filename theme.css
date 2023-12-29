@@ -206,7 +206,6 @@ li a.active {
 .services-container {  
     box-sizing: border-box;
     height: auto;
-    background-color: #eaecf1;
     padding: 20px;
     margin: 0 auto;
     justify-content: space-around;
@@ -328,5 +327,47 @@ li a.active {
     color: #4f6fc0;
     margin-bottom: 40px;
 }
-
  
+.job-details {
+    width: 70%;    
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(4, 60, 109, 0.42);
+    text-align: left;
+    color: rgb(98, 114, 155);
+    font-size: 18px;
+}
+
+.job-details h2 {
+    font-size: 24px;
+    color: #4f6fc0;
+}
+
+.job-details ul {
+    list-style: none;
+    padding: 0;
+    background-color: transparent;
+    color: rgb(98, 114, 155);
+}
+
+.job-details ul li {
+    font-size: 18px;
+    padding: 5px 5px;
+    display: list-item;
+    list-style-type: disc;  
+    color: rgb(98, 114, 155);
+    margin-left: 40px;  
+    text-align: left
+}
+
+.job-details a {
+    color: #4f6fc0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.job-details a:hover {
+    text-decoration: underline;
+}
