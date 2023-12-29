@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mainview CPA Inc.</title>
+        <link rel="stylesheet" type="text/css" href="theme.css">
+     </head>
+    <body>
+
+        <div class="main-container">
+        
+            <img class="mv-logo" src="MVLogo.png" width="20%" height="auto" alt="Mainview Logo">
+
+            <nav class="animated">                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="active">Our Services</a>
+                        <div class="dropdown-content">
+                            <a href="corporate.html">Corporate</a>
+                            <a href="individual.html">Individual</a>
+                            <a href="other.html">Other</a>
+                        </div>
+                    </li>
+                    <li><a href="announcements.html">Announcements & Forum</a></li>
+                    <li><a href="jobs.html">Job Opportunities</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="chinese-pages/index-ch.html">EN</a></li>
+                </ul>
+            </nav>
+        </div> 
+
+        <div class="background-container">
+            <h1>Our Services</h1>
+        </div>
+
+        <img class="bg-image" src="bg-images/city.jpg" width="100%" height="auto" alt="Background Image">
+
+
+        <div class="service-panel corporate-panel">
+            <a href="corporate.html">
+                <h2>Corporate</h2>
+                <p>
+                    Accounting Services for Businesses, Finance Management, Corporate Taxation, Other Business Taxation
+                </p>
+            </a>
+        </div>
+    
+        <div class="service-panel individual-panel">
+            <a href="individual.html">
+                <h2>Individual</h2>
+                <p>Individual Taxation (Tax Resident & Non-Resident)</p>
+            </a>
+        </div>
+    
+        <div class="service-panel other-panel">
+            <a href="other.html">
+                <h2>Other</h2>
+                <p>Explore our other services</p>
+            </a>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var servicePanels = document.querySelectorAll(".service-panel");
+                servicePanels.forEach(function(panel, index) {
+                    setTimeout(function() {
+                        panel.classList.add("show");
+                    }, index * 300);
+                });
+            });
+        </script>
+        
+    </body>
+
+</html>
