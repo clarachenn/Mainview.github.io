@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mainview CPA Inc.</title>
+        <link rel="stylesheet" type="text/css" href="theme.css">
+     </head>
+
+    <body>
+        <div class="main-container">
+        
+            <img class="mv-logo" src="MVLogo.png" width="20%" height="auto" alt="Mainview Logo">
+
+            <nav class="animated">                
+                <ul>
+                    <li><a href="index-ch.html">主页</a></li>
+                    <li><a href="about-ch.html">关于我们</a></li>
+                    <li class="dropdown">
+                        <a href="services-ch.html" class="active">我们服务</a>
+                        <div class="dropdown-content">
+                            <a href="corporate-ch.html">公司服务</a>
+                            <a href="individual-ch.html">个人服务</a>
+                            <a href="other-ch.html">其它服务</a>
+                        </div>
+                    </li>
+                    <li><a href="announcements-ch.html">公告 • 论坛</a></li>
+                    <li><a href="jobs-ch.html">工作机会</a></li>
+                    <li><a href="contact-ch.html">联系我们</a></li>
+                    <li><a href="services.html">CH</a></li>
+                </ul>
+            </nav>
+        </div> 
+
+        <!-- <div class="background-container">
+            <h1>我们服务</h1>
+        </div> -->
+
+        <img class="bg-image" src="bg-images/services-ch.jpg" width="100%" height="auto" alt="Background Image">
+
+        <div class="service-panel corporate-panel">
+            <a href="corporate-ch.html">
+                <h2>公司服务</h2>
+                <p>会计业务，财务管理，公司税务，其他企业税务</p>
+            </a>
+        </div>
+    
+        <div class="service-panel individual-panel">
+            <a href="individual-ch.html">
+                <h2>个人服务</h2>
+                <p>税务居民个人税，非税务居民个人税</p>
+            </a>
+        </div>
+    
+        <div class="service-panel other-panel">
+            <a href="other-ch.html">
+                <h2>其它服务</h2>
+                <p>其他税务服务</p>
+            </a>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var servicePanels = document.querySelectorAll(".service-panel");
+                servicePanels.forEach(function(panel, index) {
+                    setTimeout(function() {
+                        panel.classList.add("show");
+                    }, index * 300);
+                });
+            });
+        </script>
+        
+    </body>
+
+</html>
