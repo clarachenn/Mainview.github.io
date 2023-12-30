@@ -467,7 +467,7 @@ li a.active {
 }
 
 .home-pg-bg-contact {
-    background-color: #e7f0fc;
+    background-color: rgb(225, 232, 241);
     padding: 20px;
     padding-bottom: 60px;
 }
