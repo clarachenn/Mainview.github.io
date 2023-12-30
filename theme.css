@@ -538,6 +538,15 @@ li a.active {
     color: #3d5eb2;
 }
 
+.home-pg-bg-blog h5 a {
+    font-size: 26px;
+    color: #1945b5;
+}
+
+.home-pg-bg-blog h5 a:hover {
+    color: #3066ee;
+}
+
 
 .index-service-panel {
     align-items: center;
@@ -570,6 +579,4 @@ li a.active {
     color: #4f6fc0;
 }
 
-.home-pg-bg-blog h5 {
-    font-size: 24px;
-}
+ 
