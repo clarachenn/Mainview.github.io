@@ -479,9 +479,11 @@ li a.active {
 }
 
 .home-pg-bg-blog {
-    background-color: #88acd27b;
     padding: 20px;
     padding-bottom: 30px;
+    background-image: url("bg-images/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -526,6 +528,7 @@ li a.active {
     color: #3d5eb2;
 }
 
+
 .index-container a:hover {
     color: #567ad6;
 }
@@ -565,4 +568,8 @@ li a.active {
     text-decoration: none;
     font-size: 20px;
     color: #4f6fc0;
+}
+
+.home-pg-bg-blog h5 {
+    font-size: 24px;
 }
