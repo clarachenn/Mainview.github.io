@@ -578,5 +578,142 @@ li a.active {
     font-size: 20px;
     color: #4f6fc0;
 }
+ 
+ 
+@media only screen and (max-width: 700px) {
+    .main-container {
+        display: block;
+        flex-direction: column;
+    }
 
+    .mv-logo {
+        margin: 15px 30px;
+        margin-top: 10px;
+        width: auto;
+        max-width: 80%;  
+        height: auto;  
+    }
+    
+    .home-pg-bg-blog {
+        width: auto;
+        margin: auto;
+        padding: auto;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .home-pg-bg-blog h5 {
+        text-align: center;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .services-container,
+    .services-panel {
+        width: 100%;
+    }
+
+    .blog-container {
+        box-sizing: border-box;
+        padding: 0;  
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .blog-panel {
+        width: 100%; 
+        margin: 15px auto; 
+        box-sizing: border-box;
+    }
+
+    .blog-panel img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .index-container {
+        width: auto;
+    }
+
+    .index-map,
+    .index-address,
+    .map,
+    .address {
+        flex-basis: 100%;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .home-pg-container-2 {
+        flex-direction: column;
+    }      
+
+    .mv-office {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .services-panel {
+        width: 100%;
+    }
+ 
+
+    .job-details {
+        width: 60%;
+        flex-direction: column;
+    }
+
+
+    .worker-container {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;  
+    }
+
+    .worker-image {
+        flex-basis: 100%;
+    }
+
+    .worker-image img {
+        width: 80%;  
+        max-width: 100%;
+        margin: auto; 
+        display: block;  
+    }
+
+    .worker-info {
+        flex-basis: 100%;
+        text-align: left;
+    }
+
+
+    .contact-pg-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact-pg-container-2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
+    .home-pg-container-2 {
+        width: 100%;
+    }
+
+    .index-container {
+        width: 100%;
+    }
+}
  
