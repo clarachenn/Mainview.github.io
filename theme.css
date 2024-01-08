@@ -694,8 +694,8 @@ li a.active {
     .worker-info {
         flex-basis: 100%;
         text-align: left;
+        margin: 0;
     }
-
 
     .contact-pg-container {
         flex-direction: column;
@@ -717,3 +717,5 @@ li a.active {
     }
 }
  
+
+
